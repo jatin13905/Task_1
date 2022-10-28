@@ -1,0 +1,49 @@
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+   .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    
+   }
+   .nav-links a {
+    color: black;
+   }
+
+   .logo-img{
+    width: 40%;
+   }
+   .menu {
+    display: flex;
+    gap: 1em;
+   }
+   .menu li {
+    text-align: center;
+   }
+   .services {
+    position: relative; 
+   }
+   .temp-btn{
+    display: flex;
+   }
+   .temp-btn button {
+    background-color: orange;
+    border-radius: 15px;
+    color: white;
+   }
+   .navbar-main-div{
+    background-color: white;
+    width: 95%;
+    margin: 1%;
+    border-radius: 10px;
+   }
